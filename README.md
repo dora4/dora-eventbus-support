@@ -1,4 +1,5 @@
-dora-eventbus-support![Release](https://jitpack.io/v/dora4/dora-eventbus-support.svg)
+dora-eventbus-support
+![Release](https://jitpack.io/v/dora4/dora-eventbus-support.svg)
 --------------------------------
 
 #### gradle依赖配置
