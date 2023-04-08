@@ -1,4 +1,4 @@
-![Release](https://jitpack.io/v/dora4/dora-eventbus-support.svg)
+dora-eventbus-support![Release](https://jitpack.io/v/dora4/dora-eventbus-support.svg)
 --------------------------------
 
 #### gradle依赖配置
@@ -12,7 +12,7 @@ allprojects {
 }
 // 添加以下代码到app模块的build.gradle
 dependencies {
-		def latest_version = '1.0'
+    def latest_version = '1.0'
     implementation 'com.github.dora4:dora-eventbus-support:$latest_version'
 }
 ```
