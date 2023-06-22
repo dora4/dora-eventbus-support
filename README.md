@@ -13,7 +13,14 @@ allprojects {
 }
 // 添加以下代码到app模块的build.gradle
 dependencies {
-    def latest_version = '1.0'
+    def latest_version = '1.1'
     api 'com.github.dora4:dora-eventbus-support:$latest_version'
+}
+```
+
+```kotlin
+// 每个Activity添加以下代码
+@Subscribe(threadMode = ThreadMode.MAIN)
+fun onMessageEvent(msg: MessageEvent) {
 }
 ```

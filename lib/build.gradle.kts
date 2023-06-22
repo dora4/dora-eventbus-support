@@ -26,10 +26,10 @@ android {
 }
 
 dependencies {
-    implementation("androidx.core:core-ktx:1.7.0")
+    implementation("androidx.core:core-ktx:1.10.1")
     implementation("androidx.appcompat:appcompat:1.6.1")
-    implementation("org.greenrobot:eventbus:3.3.1")
-    implementation("com.github.dora4:dora:1.0.94")
+    implementation("com.github.dora4:dora:1.0.131")
+    api("org.greenrobot:eventbus:3.3.1")
 }
 
 afterEvaluate {
@@ -39,7 +39,7 @@ afterEvaluate {
                 from(components["release"])
                 groupId = "com.github.dora4"
                 artifactId = "dora-event-support"
-                version = "1.0"
+                version = "1.1"
             }
         }
     }
